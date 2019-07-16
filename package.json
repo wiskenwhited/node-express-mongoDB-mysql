@@ -1,0 +1,48 @@
+{
+  "name": "youchi-backend",
+  "version": "1.0.0",
+  "description": "YouChi Backend API server",
+  "author": "YouXing",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production node server.js",
+    "populate": "node scripts/populate"
+  },
+  "dependencies": {
+    "baidu_push": "^0.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "chalk": "^1.1.3",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "express-fileupload": "^0.1.3",
+    "express-jwt": "^5.3.0",
+    "file-stream-rotator": "^0.1.0",
+    "helmet": "^3.6.0",
+    "jsonwebtoken": "^7.4.0",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.8",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.6",
+    "mongoskin": "^2.1.0",
+    "morgan": "^1.8.1",
+    "multer": "^1.3.0",
+    "mysql": "^2.14.1",
+    "pushy": "^2.0.4",
+    "q": "^1.5.0",
+    "request": "^2.81.0",
+    "rootpath": "^0.1.2",
+    "speakeasy": "^2.0.0",
+    "throng": "^4.0.0",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
